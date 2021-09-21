@@ -1,0 +1,565 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+/* 
+    NAVBAR
+*/
+
+nav{
+    background-color:#f5f6fa;
+
+    .container-fluid{
+        .dropdown-menu{
+            background-color:#f5f6fa;
+            border: none;
+            border-radius: 5px;
+        }
+
+        ul{
+            li{
+                margin: 0 auto;
+                font-size: 19px;
+                padding: 8px;
+
+                .analyticsPic{
+                    width: 25px;
+                    height: 25px;
+                }
+
+                .itu{
+                    width: 50px;
+                    height: 25px;
+                    padding-bottom: 7px;
+                }
+
+                .forCe{
+                    width: 21px;
+                    height: 15px;
+                }
+
+                .forIso{
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+
+        #forCollapse{
+            ul{
+                li{
+                    .dropdown-item{
+                        font-size: 19px;
+                        padding: 8px;
+                    }
+                }
+            }
+        }
+
+        .navbar-brand{
+            padding: 0 20px;
+        }
+    }
+
+    a{
+        .nav-logo{
+            width: 32px;
+            height: 29px;
+        }
+    }
+}
+
+/* 
+    HEADER SECTION
+*/
+.header-container{
+    .header{
+        margin-top: 100px;
+        text-align: center;
+    
+        .page-title{
+            font-size: 35px;
+            color: #373d51;
+        }
+    
+        .title-hr{
+            max-width: 75px;
+            min-width: 50px;
+            margin: 35px auto;
+        }
+    }
+    
+    .dsRow{
+        text-align: center;
+        margin-top: 20px;
+    
+        img{
+            width: 220px;
+            height: 200px;
+            margin: 10px;
+        }
+    }
+
+    .titleDescrip{
+        .description{
+            font-size: 28px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+}
+
+/* 
+    BODY SECTION
+*/
+
+.body{
+    margin-top: 70px;
+
+    .product{
+        img{
+            width: 495px;
+            height: 540px;
+            transition: all 300ms;
+        }
+    }
+
+    .product-title{
+        margin: 50px;
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .about-product{
+        font-size: 20px;
+    }
+
+    .price{
+        font-weight: bold;
+        margin-right: 10px;
+        font-size: 23px;
+    }
+
+    .buy-info{
+        margin-top: 25px;
+        .buy-product{
+            margin-bottom: 5px;
+            .buy-btn{
+                width: 57%;
+                padding: 7px;
+                background-color: black;
+                color: #fff;
+                font-size: 20px;
+                border: 2px solid black;
+                margin-bottom: 5px;
+                text-transform: uppercase;
+                transition: 300ms;
+                text-decoration: none;
+                text-align: center;
+                &:hover{
+                    background-color: #fff;
+                    color: black;
+                }
+            }
+        }
+    
+        .presentation-userGuide{
+            margin-bottom: 5px;
+            .presentation-btn, .user-guide-btn{
+                background-color: #fff;
+                border: 2px solid black;
+                color: black;
+                font-size: 20px;
+                text-transform: uppercase;
+                padding: 5px;
+                -webkit-transition: 300ms;
+                transition: 300ms;
+                text-decoration: none;
+                text-decoration: none;
+                text-align: center;
+                &:hover{
+                    background-color: black;
+                    color: #fff;
+                }
+                @media screen and(max-width: 1378px){
+                    width: 100%;
+                  }
+           }
+        }
+    
+        .warranty-btn{
+            width: 57%;
+            background-color: #fff;
+            border: 2px solid black;
+            color: black;
+            font-size: 20px;
+            text-transform: uppercase;
+            padding: 5px;
+            transition: 300ms;
+            text-decoration: none;
+            text-align: center;
+            &:hover{
+                background-color: black;
+                color: #fff;
+            }
+        }
+    }
+
+    .ultraviolet-light{
+        text-align: center;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+}
+
+/* 
+    INSTRUCTIONS SECTION
+*/
+
+.instructions-main{
+
+    .installment-section{
+        .installment{
+            margin: 50px;
+            .credit-cards{
+                text-align: center;
+                border-bottom: 1px solid black;
+                margin-bottom: 10px;
+                padding-bottom: 15px;
+
+                img{
+                    width: 115px;
+                    height: 60px;
+                }
+            }
+
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 20px;
+
+                th,td{
+                    border-bottom: 1px solid #dee2e6;
+                    padding: 12px;
+                }
+
+                thead {
+                    th{
+                        border-bottom: 2px solid #dee2e6;
+                    }
+                }
+            }
+        }
+    }
+
+    .inst-title{
+        margin: 35px 0;
+
+    }
+
+    .instructions{
+        h5{
+            line-height: 150%;
+        }
+    }
+
+    .SSS{
+        h5{
+            line-height: 150%;
+        }
+    }
+
+    .analysis{
+        a{
+            margin: 10px 0;
+            font-size: 20px;
+            line-height: 250%;
+            color: #7288a2;
+            transition: all 300ms ease;
+            &:hover{
+                text-decoration: underline;
+                color: #4f5f72;
+            }
+        }
+    }
+
+    .guarantee-patent{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        .inst-footer{
+            display: flex;
+
+            i{
+                color: #007bff;
+                margin-right: 25px;
+            }
+        }
+    }
+}
+
+/*
+    FOOTER SECTION
+*/
+
+.footer{
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 50px;
+
+    .footerLogo{
+        width: 250px;
+        height: 250px;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    .socialLinks{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+
+        .fab{
+            transition: 500ms;
+            &:hover{
+                color: black;
+                transition: 500ms;
+                border-bottom: 2px solid black;
+            }
+        }
+
+        li{
+            font-size: 20px;
+            box-sizing: border-box;
+            margin: 0 20px;
+
+            a{
+                color: grey;
+            }
+        }
+    }
+
+    .copyRight{
+        font-size: 20px;
+        color: #737373;
+
+        a{
+            color: #737373b3;
+            text-decoration: none;
+            transition: 500ms;
+            &:hover{
+                color: black;
+                text-decoration: underline;
+                transition: 500ms;
+            }
+        }
+    }
+
+    .preconditions{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+
+        li{
+            padding: 0 25px 0 5px;
+            text-align: center;
+
+            a{
+                text-decoration: none;
+                color: #737373b3;
+                transition: 500ms;
+                &:hover{
+                    color: black;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .language{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li{
+            margin: 0 15px;
+
+            a{
+                text-decoration: none;
+                color: #737373b3;
+                transition: 500ms;
+                font-size: 1.1rem;
+                &:hover{
+                    color: black;
+                }
+            }
+
+            img{
+                width: 2.60vw;
+                height: 2.60vw;
+                min-width: 30px;
+                min-height: 30px;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 1399px){
+    .body .buy-info .presentation-userGuide .presentation-btn,
+    .body .buy-info .presentation-userGuide .user-guide-btn {
+      width: 57%;
+    }
+  
+    .body .buy-info .presentation-userGuide .presentation-btn{
+      margin-bottom: 5px;
+    }
+  }
+  
+
+@media screen and(max-width: 768px){
+    .instructions-main .guarantee-patent .inst-footer .second{
+        margin-left: 10px;
+      }
+      
+    .instructions-main .guarantee-patent .inst-footer .third{
+        margin-left: 13px;
+      }
+}
+
+@media screen and(max-width: 480px){
+
+    .header-container {
+        .titleDescrip {
+            .description{
+                font-size: 22px;
+            }
+        }
+    }
+
+    .body{
+        .product{
+            text-align: center;
+            img{
+                width: 300px;
+                height: 350px;
+            }
+        }
+
+        .product-title{
+            font-size: 32px;
+        }
+
+        .about-product{
+            font-size: 19px;
+        }
+
+        .buy-info{
+            .buy-product{
+                .buy-btn{
+                    width: 100%;
+                    font-size: 18px;
+                }
+            }
+
+            .presentation-userGuide{
+                .presentation-btn,
+                .user-guide-btn{
+                    width: 100%;
+                    font-size: 18px;
+                }
+            }
+
+            .warranty-btn{
+                width: 100%;
+                font-size: 18px;
+            }
+        }
+
+        .ultraviolet-light{
+            font-size: 19px;
+        }
+    }
+
+    .instructions-main {
+
+        .installment-section {
+            .installment {
+                margin: 25px auto;
+
+                .credit-cards{
+                    img{
+                        width: 100px;
+                        height: 50px;
+                    }
+                }
+
+                table{
+                    thead{
+                        font-size: 18px;
+                    }
+
+                    tbody{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .instructions h5{
+            font-size: 18px;
+        }
+    
+        .analysis a {
+            font-size: 18px;
+        }
+    }
+
+    .accordion-header{
+        .accordion-button{
+            h4{
+                font-size: 19px;
+            }
+        }
+    }
+    
+
+    .footer{
+        margin-top: 100px;
+
+        .footer-text h5{
+            font-size: 18px;
+        }
+
+        .footerLogo{
+            width: 170px;
+            height: 160px;
+        }
+
+        ul{
+            margin-top: 25px;
+        }
+
+        .copyRight{
+            font-size: 17px;
+        }
+
+        .preconditions{
+            display: flex;
+            font-size: 15px;
+        }
+
+        .language li a{
+            font-size: 17px;
+        }
+    }
+}
+
+
+
+

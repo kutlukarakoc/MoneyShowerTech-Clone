@@ -1,0 +1,250 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+  
+  /* 
+      NAVBAR
+  */
+nav {
+    background-color: #f5f6fa;
+    
+    .container-fluid{
+        
+        .dropdown-menu{
+            background-color: #f5f6fa;
+            border: none;
+            border-radius: 5px;
+        }
+
+        ul li{
+            margin: 0 auto;
+            font-size: 19px;
+            padding: 8px;
+
+            .analyticsPic {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        .itu {
+            width: 50px;
+            height: 25px;
+            padding-bottom: 7px;
+        }
+
+          .forCe {
+            width: 21px;
+            height: 15px;
+        }
+
+        .forIso {
+            width: 25px;
+            height: 25px;
+        }
+
+        #forCollapse ul li .dropdown-item{
+            font-size: 19px;
+            padding: 8px;
+        }
+
+        .navbar-brand {
+            padding: 0 20px;
+        }
+    }
+
+    a{
+        .nav-logo{
+            width: 32px;
+            height: 29px;
+        }
+    }
+}
+
+  /*
+    BODY SECTION(ACCORDION)
+  */
+
+  .body-main{
+      margin: 80px auto;
+      text-align: center;
+
+      .hr{
+        width: 50%;
+        border-top: 1px solid black;
+        margin: 65px auto;
+      }
+
+      .accordion-item{
+          .accordion-body{
+              p{
+                  text-align: left;
+                  font-size: 20px;
+              }
+          }
+      }
+  }
+  
+/* 
+    FOOTER SECTION
+*/
+
+.footer{
+  text-align: center;
+  margin-top: 150px;
+  padding-bottom: 50px;
+
+  .footerLogo{
+      width: 250px;
+      height: 250px;
+  }
+
+  ul{
+      list-style: none;
+  }
+
+  .socialLinks{
+      display: flex;
+      justify-content: center;
+
+      .fab{
+          transition: 500ms;
+          &:hover{
+              color: black;
+              transition: 500ms;
+              border-bottom: 2px solid black;
+          }
+      }
+
+      li{
+          font-size: 20px;
+          box-sizing: border-box;
+          margin: 0 20px;
+
+          a{
+              color: grey;
+          }
+      }
+  }
+
+  .copyRight{
+      font-size: 20px;
+      color: #737373;
+
+      a{
+          color: #737373b3;
+          text-decoration: none;
+          transition: 500ms;
+          &:hover{
+              color: black;
+              text-decoration: underline;
+              transition: 500ms;
+          }
+      }
+  }
+
+  .preconditions{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      font-size: 1.2rem;
+
+      li{
+          padding: 0 25px 0 5px;
+          text-align: center;
+
+          a{
+              text-decoration: none;
+              color: #737373b3;
+              transition: 500ms;
+              &:hover{
+                  color: black;
+                  text-decoration: underline;
+              }
+          }
+      }
+  }
+
+  .language{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      li{
+          margin: 0 15px;
+
+          a{
+              text-decoration: none;
+              color: #737373b3;
+              transition: 500ms;
+              font-size: 1.1rem;
+              &:hover{
+                  color: black;
+              }
+          }
+
+          img{
+              width: 2.60vw;
+              height: 2.60vw;
+              min-width: 30px;
+              min-height: 30px;
+          }
+      }
+  }
+}
+
+@media screen and(max-width: 480px){
+    
+    .body-main{
+        .accordion-flush{
+            .accordion-item{
+                .accordion-button{
+                    h4{
+                        font-size: 19px;
+                    }
+                }
+
+                .accordion-body{
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        margin-top: 100px;
+
+        .footer-text h5{
+            font-size: 18px;
+        }
+
+        .footerLogo{
+            width: 170px;
+            height: 160px;
+        }
+
+        ul{
+            margin-top: 25px;
+        }
+
+        .copyRight{
+            font-size: 17px;
+        }
+
+        .preconditions{
+            display: flex;
+            font-size: 15px;
+        }
+
+        .language li a{
+            font-size: 17px;
+        }
+    }
+}
