@@ -1,6 +1,6 @@
 # MoneyShowerTech Clone(Responsive)
 
-[](https://github.com/kutlukarakoc/MoneyShowerTech-Clone/blob/main/MoneyShowerHomePage.png)
+![](https://github.com/kutlukarakoc/MoneyShowerTech-Clone/blob/main/MoneyShowerHomePage.png)
 
 ### In this project I used HTML, CSS, Javascript, Bootstrap.
 ### I tried to clone all pages.
